@@ -76,7 +76,7 @@ duinocoin:
           - name: duco_stake_end
             state: > 
 
-                {% if utcnow () == as_datetime(states('sensor.duco_stake_date_timestamp'))%}
+                {% if utcnow () >= as_datetime(states('sensor.duco_stake_date_timestamp'))%}
                 on
                 {%else %}
                 off
