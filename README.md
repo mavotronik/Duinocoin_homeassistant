@@ -10,6 +10,6 @@ python_script:
    requirements:
      - requests
 ```
-3. Copy this file to your package directory.
+3. Copy `duinocoin.yaml` to your package directory.
 4. In the package file replace `<username>` to your username.
 5. Save file and restart homeassistant. Sensors should appear.
