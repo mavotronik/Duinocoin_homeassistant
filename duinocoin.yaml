@@ -1,4 +1,3 @@
-duinocoin: 
        ### Show balance, verification status, number of warnings ### 
 
     sensor:
